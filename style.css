@@ -1,0 +1,79 @@
+
+
+body {
+    background-color: #01323f;
+    background:url("images/Waving_America.GiF") top right no-repeat; background-attachment:fixed;
+    background-size: 1920px 1080px;
+}
+#clock {
+    height: 100px;
+    width: 800px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    padding-top: 70px;
+    font-family: courier, monospace;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+}
+p
+{
+  height: 100px;
+  width: 900px;
+  margin: auto;
+  position: center;
+  top: 0; left: 0; bottom: 0; right: 0;
+  padding-top: 10px;
+  font-family: courier, monospace;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+}
+.time-frame {
+    background-color: #000000;
+    color: #ffffff;
+    width: 300px;
+    font-family: Arial;
+}
+
+.time-frame > div {
+    width: 100%;
+    text-align: center;
+}
+
+#date-part {
+    font-size: 1.2em;
+}
+#time-part {
+    font-size: 2em;
+}
+.image1
+{
+  height: 200px;
+  width:  200px;
+}
+.image2
+{
+  float: right;
+  height: 200px;
+  width:  200px;
+}
+.image3{
+  float: right;
+  right: 0px
+  bottom: 0px;
+  height: 200px;
+  width:  200px;
+}
+.image4{
+  float:left;
+  right: 0px;
+  bottom: 0px;
+  height: 200px;
+  width:  200px;
+}
+
+audio {
+  display: none;
+}
